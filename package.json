@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "tailwindcss": "^3.3.0"
-  }
+  },
+  "name": "tailwind-css-project",
+  "description": "I do this project to get familiar with tailwind css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basheeromy/tailwind-css-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basheeromy/tailwind-css-project/issues"
+  },
+  "homepage": "https://github.com/basheeromy/tailwind-css-project#readme"
 }
